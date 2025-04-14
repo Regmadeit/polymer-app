@@ -1,0 +1,47 @@
+1. Storage & Logistics Issues:
+Challenge:
+Our storage consistently reaches capacity, leading to operational slowdowns, excess inventory holding, and increased costs.
+
+Immediate Actions:
+Redirecting incoming shipments due to space constraints.
+
+Proposed Solutions:
+Implementing a Just-In-Time (JIT) system, aligning production closely with buyer schedules.
+Consolidating shipments to maximize trailer capacity and reduce frequency.
+Establishing direct communication channels with key partners like Blue Polymer to optimize scheduling and efficiency.
+
+2. Cross-Training Initiative:
+Objective:
+Enhance operational flexibility, efficiency, and productivity.
+
+Current Actions:
+Actively cross-training all forklift drivers and operators across key areas:
+Inbound & Outbound logistics
+Washline operations
+Baler and Crosswrap processes
+
+Expected Benefits:
+Increased workforce flexibility.
+Reduced downtime and operational delays.
+Improved employee engagement and skill development.
+
+3. Real-Time Logistics & Inventory Management App:
+Status:
+Developed a proof-of-concept app for real-time inventory tracking, logistics management, and operator reporting.
+
+Capabilities:
+Real-time alerts on storage capacity thresholds.
+Automated shipment scheduling and logistics coordination.
+
+Next Steps:
+Full integration into operations.
+Expanded testing and feedback cycle with operators and logistics partners.
+
+
+
+
+
+
+
+
+

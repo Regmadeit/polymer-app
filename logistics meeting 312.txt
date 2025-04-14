@@ -1,0 +1,30 @@
+
+1. Current Storage Challenges:
+
+Inventory consistently exceeds storage capacity, causing congestion.
+Incoming shipments frequently surpass available warehouse space.
+Holding excess inventory impacts safety, efficiency, and productivity.
+2. Logistics Bottlenecks:
+
+Frequent smaller shipments creating logistical inefficiencies.
+Under-utilized trailer capacity leading to higher transportation costs.
+Communication gaps with logistics providers (JB Hunt) and major buyers (Blue Polymer).
+3. Immediate Actions Taken:
+
+Temporarily redirecting or rescheduling incoming trailers.
+Implemented proactive tracking and alert systems through internal logistics app (in testing).
+4. Proposed Resolutions:
+
+Just-In-Time (JIT) inventory management to reduce excess storage.
+Consolidate shipments into fewer, larger loads to maximize trailer utilization.
+Establish a direct line of real-time communication and scheduling coordination with Blue Polymer and logistics partners.
+5. Your Role & Contributions:
+
+Leading coordination efforts with logistics providers and buyers.
+Actively managing inventory tracking, shipment coordination, and trailer optimization.
+Facilitated cross-training within the team, enhancing overall operational flexibility.
+6. How Michele Can Support:
+
+Help establish clear communication channels with corporate logistics and buyers.
+Support the integration and full deployment of the inventory management app.
+Assist in securing additional or alternative storage solutions if possible.

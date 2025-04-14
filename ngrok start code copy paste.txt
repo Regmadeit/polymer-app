@@ -1,0 +1,8 @@
+cd "C:\Users\badar\OneDrive\Documents\polymer_app"
+
+.\ngrok.exe http 5000
+
+Debug start
+
+cd "C:\Users\badar\OneDrive\Documents\polymer_app"
+flask run --debug
