@@ -162,6 +162,7 @@ def home():
                 <a href="/logistics" class="nav-button">Logistics Dashboard</a>
                 <a href="/maintenance" class="nav-button">Maintenance Dashboard</a>
             </div> 
+<a href="/learning" class="btn btn-warning btn-lg w-100 my-2" style="color:#004289; font-weight:bold; border-radius:12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; max-width: 400px;">Learning Hub</a>
             <footer>
                 <p class="mt-4">A work in progress by Reginald Turner</p>
             </footer>
@@ -1833,6 +1834,84 @@ def storage_inventory():
     </body>
     </html>
     ''', inventory_records=inventory_records)
+
+@app.route('/learning')
+def learning_hub():
+    return render_template_string('''
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Qore | Learning Hub</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                background-color: #003DA5;
+                color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .logo {
+                width: 120px;
+                display: block;
+                margin: 0 auto 20px;
+            }
+            .title {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .card {
+                background-color: #004A7C;
+                margin: 10px auto;
+                padding: 15px;
+                border-radius: 12px;
+                width: 90%;
+                max-width: 500px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            }
+            .card a {
+                color: #FFC72C;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .btn-back {
+                background-color: white;
+                color: #003DA5;
+                margin-top: 30px;
+                font-weight: bold;
+                border-radius: 12px;
+                width: 90%;
+                max-width: 400px;
+                padding: 15px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Qore Logo" class="logo">
+        <div class="title">Learning Hub</div>
+
+        <div class="card">
+            <p>📘 <a href="/static/Krones_Guide.pdf" target="_blank">Krones Troubleshooting PDF</a></p>
+        </div>
+        <div class="card">
+            <p>📘 <a href="/static/Stadler_Manual.pdf" target="_blank">Stadler Operating Manual</a></p>
+        </div>
+        <div class="card">
+            <p>📸 <a href="/static/sensor_fix.png" target="_blank">How to Clean Sensor (Image)</a></p>
+        </div>
+        <div class="card">
+            <p>🎞️ <a href="https://youtube.com" target="_blank">Watch: Emergency Stop Overview</a></p>
+        </div>
+
+        <a href="/" class="btn btn-back">← Back to Dashboard</a>
+    </body>
+    </html>
+    ''')
+
 
 import os
 
